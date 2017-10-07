@@ -21,6 +21,7 @@ reg [ADDR_WIDTH-1:0] address_reg;
 always @(posedge clk ) begin
     address_reg <= address;
 end //always
+assign q = memory[address_reg];
 //write;
 always @(posedge clk ) begin
     if(wren) begin
