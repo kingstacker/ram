@@ -1,0 +1,8 @@
+#simulation
+work/
+*.wlf
+wlf*
+transcript
+*.ini
+#quartus
+quartus/

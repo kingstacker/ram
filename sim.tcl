@@ -1,9 +1,9 @@
 #set testbench name;
 set tb_name ram_tb
 #set the sim home dir ;
-set sim_home D:/work/ram_1
+set sim_home D:/git/ram
 #set the src code home dir;
-set src_home D:/work/ram_1
+set src_home D:/git/ram
 vlib ${sim_home}/work
 vmap work ${sim_home}/work
 vlog ${src_home}/ram.v  ${src_home}/ram_tb.v
